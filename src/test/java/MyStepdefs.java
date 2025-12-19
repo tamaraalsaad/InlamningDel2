@@ -67,7 +67,7 @@ public class MyStepdefs {
     public void iAcceptTheAccountConfirmation() {
         driver.findElement(By.xpath("//label[contains(.,'Terms and Conditions')]")).click();
         driver.findElement(By.xpath("//label[contains(.,'aged over 18')]")).click();
-        System.out.println();
+
     }
 
     @And("I red and accept to \\(applies to all Members)")
